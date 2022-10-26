@@ -9,6 +9,10 @@ public class Midia {
         this.nome = nome;
     }
 
+    public Midia() {
+
+    }
+
     public String getCodigo() {
         return codigo;
     }
