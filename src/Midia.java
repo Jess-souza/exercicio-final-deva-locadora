@@ -37,7 +37,7 @@ public class Midia {
         this.nome = nome;
     }
 
-    public static void darPlay(Midia midia){
+    public void darPlay(Midia midia){
         System.out.println(midia.getNome() + " está sendo reproduzida.\n");
     }
 }
