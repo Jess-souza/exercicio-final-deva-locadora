@@ -44,7 +44,7 @@ public class Dvd extends Midia {
         String novoIdioma = getIdioma();
         setIdioma(novoIdioma);
     }
-
+    //TODO: conferir a variavel de condição(precisa de argumento?)
     public void legenda(boolean ligarDesligar) {
         if(possuiLegenda){
             setPossuiLegenda(false);
