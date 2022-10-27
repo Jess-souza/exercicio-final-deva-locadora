@@ -2,6 +2,7 @@ public class Cd extends Midia {
     private String artista;
     private int quantidadeFaixas;
 
+    @Override
     public void darPlay() {
         System.out.println("Primeira faixa tocando");
     }
