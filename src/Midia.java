@@ -40,4 +40,13 @@ public class Midia {
     public void darPlay(){
         System.out.println(getNome() + " está sendo reproduzida.\n");
     }
+
+    @Override
+    public String toString() {
+        return "Midia{" +
+                "codigo='" + codigo + '\'' +
+                ", preco=" + preco +
+                ", nome='" + nome + '\'' +
+                '}';
+    }
 }

@@ -4,10 +4,11 @@ public class DoacaoMidia {
        Midia midia = pegarMidiaAleatoria();
        System.out.println("Nome: " + midia.getNome());
        midia.darPlay();
+        System.out.println(midia);
 
     }
 
-    static public Midia pegarMidiaAleatoria(){
+    public static Midia pegarMidiaAleatoria(){
         Midia[] listaMidias = new Midia[5];
         listaMidias[0] = new Cd("12345", 15.00, "Midnights", "Taylor Swift", 13);
         listaMidias[1] = new Dvd("999", 50.00, "Harry Potter e a pedra filosofal", "Inglês", true, "Pt-br");

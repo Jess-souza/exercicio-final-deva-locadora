@@ -43,10 +43,10 @@ public class Dvd extends Midia {
         setPossuiLegenda(ligar);
         setIdioma(idioma);
     }
-    //TODO: conferir a variavel de condição(precisa de argumento?)
+
     public void legenda(boolean ligarDesligar) {
-            setPossuiLegenda(ligarDesligar);
-        }
+        setPossuiLegenda(ligarDesligar);
+    }
 
 
     @Override
