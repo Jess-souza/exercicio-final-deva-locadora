@@ -40,11 +40,16 @@ public class Dvd extends Midia {
     }
 
     public void legenda(boolean ligar, String idioma) {
-        // liga a legenda e atualiza o idioma da legenda
-
+        setPossuiLegenda(true);
+        String novoIdioma = getIdioma();
+        setIdioma(novoIdioma);
     }
 
     public void legenda(boolean ligarDesligar) {
-        //- legenda(boolean ligarDesligar) : apenas atualiza a variável possuiLegenda
+        if(possuiLegenda){
+            setPossuiLegenda(false);
+        } else {
+            setPossuiLegenda(true);
+        }
     }
 }
