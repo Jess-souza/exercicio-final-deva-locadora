@@ -28,4 +28,12 @@ public class Cd extends Midia {
     public void setQuantidadeFaixas(int quantidadeFaixas) {
         this.quantidadeFaixas = quantidadeFaixas;
     }
+
+    @Override
+    public String toString() {
+        return super.toString() + "Cd{" +
+                "artista='" + artista + '\'' +
+                ", quantidadeFaixas=" + quantidadeFaixas +
+                '}';
+    }
 }

@@ -40,16 +40,21 @@ public class Dvd extends Midia {
     }
 
     public void legenda(boolean ligar, String idioma) {
-        setPossuiLegenda(true);
-        String novoIdioma = getIdioma();
-        setIdioma(novoIdioma);
+        setPossuiLegenda(ligar);
+        setIdioma(idioma);
     }
     //TODO: conferir a variavel de condição(precisa de argumento?)
     public void legenda(boolean ligarDesligar) {
-        if(possuiLegenda){
-            setPossuiLegenda(false);
-        } else {
-            setPossuiLegenda(true);
+            setPossuiLegenda(ligarDesligar);
         }
+
+
+    @Override
+    public String toString() {
+        return super.toString() + "Dvd{" +
+                "idioma='" + idioma + '\'' +
+                ", possuiLegenda=" + possuiLegenda +
+                ", idiomaLegenda='" + idiomaLegenda + '\'' +
+                '}';
     }
 }
