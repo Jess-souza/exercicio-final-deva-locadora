@@ -43,10 +43,8 @@ public class Midia {
 
     @Override
     public String toString() {
-        return "Midia{" +
-                "codigo='" + codigo + '\'' +
-                ", preco=" + preco +
-                ", nome='" + nome + '\'' +
-                '}';
+        return "\nCódigo: " + codigo +
+                "\nPreço: R$" + preco +
+                "\nNome: " + nome + "\n";
     }
 }

@@ -31,9 +31,8 @@ public class Cd extends Midia {
 
     @Override
     public String toString() {
-        return super.toString() + "Cd{" +
-                "artista='" + artista + '\'' +
-                ", quantidadeFaixas=" + quantidadeFaixas +
-                '}';
+        return super.toString() + "Tipo de mídia: Cd \n" +
+                "\nArtista: " + artista +
+                "\nQuantida de faixas: " + quantidadeFaixas + "\n";
     }
 }

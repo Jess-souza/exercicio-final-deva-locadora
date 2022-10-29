@@ -51,10 +51,9 @@ public class Dvd extends Midia {
 
     @Override
     public String toString() {
-        return super.toString() + "Dvd{" +
-                "idioma='" + idioma + '\'' +
-                ", possuiLegenda=" + possuiLegenda +
-                ", idiomaLegenda='" + idiomaLegenda + '\'' +
-                '}';
+        return super.toString() + "Tipo de mídia: Dvd \n" +
+                "Idioma do filme: " + idioma +
+                "\nLegenda disponível: " + possuiLegenda +
+                "\nIdioma da legenda: " + idiomaLegenda;
     }
 }
